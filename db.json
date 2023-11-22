@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "json-server",
+      "email": "hoa@gmail.com",
+      "password": "123",
+      "cart": []
+    },
+    {
+      "userName": "nộc",
+      "email": "hoa12@gmail.com",
+      "password": "123",
+      "cart": [],
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "catergory": "iphone",
+      "image":"https://images.unsplash.com/photo-1611791484670-ce19b801d192?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+      "product":[
+        {
+          "id":11,
+          "name_product":"iphone6",
+          "productDetail":"hfdufsfsfssfu",
+          "price":6000,
+          "image":"https://images.unsplash.com/photo-1519923834699-ef0b7cde4712?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+            "id": 12,
+            "name_product": "iphone7",
+            "price": 8000,
+            "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+            "productDetail":"hfdufsfsfssfu"
+        }
+      ]
+    },
+    {
+        "id": 2,
+        "catergory":"samsung",
+        "image": "https://images.unsplash.com/photo-1591054333829-3a3ce5d57fca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+        "product": [
+            {
+                "id": 21,
+                "name_product": "note3",
+                "price": 8000,
+                "image": "https://images.unsplash.com/photo-1587831991059-40958cea9ca5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+                "productDetail": "hfdufsfsfssfu"
+            },
+            {
+                "id": 22,
+                "name_product": "note4",
+                "price": 9000,
+                "image": "https://images.unsplash.com/photo-1581993192008-63e896f4f744?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2Ftc3VuZ3xlbnwwfHwwfHx8MA%3D%3D",
+                "productDetail": "hfdufsfsfssfu"
+            }
+        ]
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
