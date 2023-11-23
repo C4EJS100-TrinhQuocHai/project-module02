@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import crypto from "crypto-js";
 import {Link,useNavigate} from "react-router-dom";
 import api from "../../service/apis/api.user"
 export default function Register() {
@@ -26,12 +27,29 @@ export default function Register() {
             console.log("tài khoản đã tồn tại!");
             return;
           }else{
-            api.register(user);
+            console.log("22222",user);
+            var token = crypto.AES.encrypt(user.password,import.meta.env.VITE_TOKEN_USER).toString();
+            console.log("11111",token);
+            let user1={...user,password:token}
+            api.register(user1);
             redirect("/login")
           }
        })
 
     }
+    // để mã hoá dữ liệU tạo thành 1 mã riêng 
+ ///"abcxyz"
+// Xem chuỗi đã mã hóa
+
+ 
+// Lấy danh sách byte đã mã hóa
+// var bytes = crypto.AES.decrypt(token, 'quochai12');
+ 
+// // Chuyển sang chuỗi gốc
+// var message_decode = bytes.toString(crypto.enc.Utf8);
+ 
+// console.log("22222",message_decode);
+
   return (
     <div>
       <label htmlFor="">Usename</label>

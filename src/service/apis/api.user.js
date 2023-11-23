@@ -10,6 +10,6 @@ export default {
         return await axios.get(`${import.meta.env.VITE_HOST_NAME}users?email=${email}`)
     },
     checkLogin:async(email,password)=>{
-        return await axios.get(`${import.meta.env.VITE_HOST_NAME}users?email=${email}&password=${password}`)
+        return await axios.get(`${import.meta.env.VITE_HOST_NAME}users?email=${email}`)
     }
 }
