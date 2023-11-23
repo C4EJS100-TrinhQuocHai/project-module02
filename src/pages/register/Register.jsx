@@ -52,7 +52,7 @@ export default function Register() {
 
   return (
     <div>
-      <label htmlFor="">Usename</label>
+      <label htmlFor="">Username</label>
       <input
        type="text" 
        onChange={handleChange}
